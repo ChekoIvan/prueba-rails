@@ -48,7 +48,7 @@ test:
 #  url: <%= ENV['DATABASE_URL'] %>
 
  production:
-   <<: *default
-   database: demo
-   username: root
-   password: <%= ENV['DEMO_DATABASE_PASSWORD'] %>
+  <<: *default
+  database: demo
+  username: root
+  password: <%= ENV['DEMO_DATABASE_PASSWORD'] %>
